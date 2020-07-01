@@ -14,7 +14,7 @@
         
         <hibernate.version>4.2.14.Final</hibernate.version>
         <jackson.library>2.7.5</jackson.library>
-        <mysql.version>5.1.9</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <maven.compiler.source>1.8</maven.compiler.source>
       	<maven.compiler.target>1.8</maven.compiler.target>
    </properties>
@@ -46,7 +46,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.version} </version>
+			<version>${mysql.version}</version>
 		</dependency>  
     <!-- MySQL database driver --> 
       
